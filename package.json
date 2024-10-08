@@ -1,8 +1,9 @@
 {
-	"dependencies": {
-		"rolldown": "nightly"
-	},
-	"scripts": {
-		"build": "rolldown -c rolldown.config.mjs"
-	}
+  "scripts": {
+    "build": "rolldown -c rolldown.config.mjs"
+  },
+  "dependencies": {
+    "rolldown": "nightly"
+  },
+  "packageManager": "pnpm@9.11.0"
 }
